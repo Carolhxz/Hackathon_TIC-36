@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { View, Text, TextInput, TouchableOpacity, StyleSheet, Image } from 'react-native';
-import { LinearGradient } from 'expo-linear-gradient'; // Para o gradiente de fundo
+import { LinearGradient } from 'expo-linear-gradient'; 
 
 export default function RegisterScreen({ navigation }) {
   const [password, setPassword] = useState('');
@@ -11,17 +11,17 @@ export default function RegisterScreen({ navigation }) {
       alert('As senhas não coincidem!');
       return;
     }
-    // Lógica para registrar o usuário (pode ser uma API, ou navegação)
-    navigation.navigate('Home'); // Após o registro, redireciona para a tela Home
+    
+    navigation.navigate('HomeScreen'); 
   };
 
   return (
     <LinearGradient
-      colors={['#4F8FCB', '#0083F1', '#01001E']} // Gradiente de fundo
+      colors={['#4F8FCB', '#0083F1', '#01001E']} 
       style={styles.container}
     >
       <Image 
-        source={require('../Hackatoon/image/alerta.png')} // Logo ou imagem de fundo
+        source={require('../Hackatoon/image/alerta.png')} 
         style={styles.logo}
       />
 

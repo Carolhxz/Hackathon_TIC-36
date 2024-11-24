@@ -1,17 +1,17 @@
 // LoginScreen.js (Tela de login)
 import React from 'react';
 import { View, Text, TextInput, TouchableOpacity, StyleSheet, Image } from 'react-native';
-import { LinearGradient } from 'expo-linear-gradient'; // Para o gradiente de fundo
-import { Ionicons } from '@expo/vector-icons'; // Ícones do Expo
+import { LinearGradient } from 'expo-linear-gradient'; 
+import { Ionicons } from '@expo/vector-icons'; 
 
 export default function LoginScreen({ navigation }) {
   return (
     <LinearGradient
-      colors={['#4F8FCB', '#0083F1', '#01001E']} // Gradiente de fundo
+      colors={['#4F8FCB', '#0083F1', '#01001E']} 
       style={styles.container}
     >
       <Image 
-        source={require('../Hackatoon/image/alerta.png')} // Logo ou imagem de fundo
+        source={require('../Hackatoon/image/alerta.png')} 
         style={styles.logo}
       />
 
@@ -37,7 +37,7 @@ export default function LoginScreen({ navigation }) {
 
       <TouchableOpacity 
         style={styles.button} 
-        onPress={() => navigation.navigate('InitialScreen')}  // Navega para a Tela Inicial após o login
+        onPress={() => navigation.navigate('InitialScreen')} 
       >
         <Text style={styles.buttonText}>Entrar</Text>
       </TouchableOpacity>
@@ -77,15 +77,15 @@ const styles = StyleSheet.create({
   },
   input: {
     width: '100%',
-    paddingLeft: 5, // Espaço para o ícone na esquerda
-    paddingRight: 30, // Espaço para o ícone na direita
+    paddingLeft: 5, 
+    paddingRight: 30, 
     padding: 10,
-    color: '#000',  // Texto preto para contraste com o fundo branco
+    color: '#000',  
     fontSize: 16,
-    borderWidth: 1,  // Define a borda
-    borderColor: '#fff',  // Cor da borda
-    borderRadius: 25,  // Cantos arredondados
-    backgroundColor: '#fff',  // Fundo branco
+    borderWidth: 1,  
+    borderColor: '#fff',  
+    borderRadius: 25,  
+    backgroundColor: '#fff',  
   },
   button: {
     backgroundColor: '#001496',
