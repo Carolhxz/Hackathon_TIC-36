@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "es6", // Definir a versão de saída para ES6
+    "moduleResolution": "node", // Usar a resolução de módulos do Node
+    "jsx": "react-native" // Para React Native
+  },
+  "extends": "expo/tsconfig.base"
+}
+
