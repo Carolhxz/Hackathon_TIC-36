@@ -1,5 +1,4 @@
-# Hackathon_TIC-36
-Este projeto é um protótipo  de uma plataforma de segurança cidadã, que visa fornecer informações essenciais sobre áreas de risco, ocorrências, e facilitar a comunicação entre os usuários e as autoridades locais.
+
 # Alerta+ - Plataforma de Segurança Cidadã
 
 O **Alerta+** é uma plataforma interativa de segurança cidadã, projetada para fornecer informações sobre áreas de risco, ocorrências e promover a comunicação entre os usuários e as autoridades locais. Com uma interface intuitiva, o aplicativo visa tornar o processo de busca por informações de segurança mais acessível e eficiente.
